@@ -104,7 +104,10 @@ Building
 * C toolchain (I only tested with gcc).
 * pkg-config
 * xfce4-dev-tools
-
+#### Debian 12
+```shell
+sudo apt install -y xfce4-dev-tools libxfce4ui-2-dev libxfce4panel-2.0-dev
+```
 ### Runtime Dependencies
 * glib2
 * gtk+2
